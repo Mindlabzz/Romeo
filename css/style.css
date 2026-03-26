@@ -1833,3 +1833,38 @@ section1{width: 100%; height: 10%; margin: 0px solid; background-color:#FFFFFF;p
         max-width: 180px;
     }
 }
+
+
+/* CONTACT SECTION CLEAN + RESPONSIVE */
+
+.contact-clean {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.contact-item {
+    margin-bottom: 30px;
+}
+
+.contact-item .label {
+    font-size: 1.2rem;
+    color: #00d4ff;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.contact-item .value a {
+    display: block;
+    font-size: 1.4rem;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+    .contact-item .value a {
+        font-size: 1.1rem;
+    }
+}
